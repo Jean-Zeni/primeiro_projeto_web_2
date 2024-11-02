@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -38,12 +39,33 @@
 
             <h2>Serviços Prestados:</h2>
 
-            <div class="card_services">
-                <img class="imgServicos" src="..\interatividade\assets\img\aparelho.webp" alt="sorriso com aparelho ortodôntico">
+            <div id="card_services">
+                <img class="imgServicos" src="..\interatividade\assets\img\aparelho.webp"
+                    alt="sorriso com aparelho ortodôntico">
 
                 <h3>Aparelho ortodôntico</h3>
 
-                <p>Nossa clínica trabalha com aparelho ortodônticos, uma técnica utilizada para alinhar o sorriso e corrigir a mordida</p>
+                <p>Nossa clínica trabalha com aparelho ortodônticos, uma técnica utilizada para alinhar o sorriso e
+                    corrigir a mordida</p>
+
+                <button>Saiba Mais</button>
+
+                <img class="imgServicos" src="..\interatividade\assets\img\clareamento-dentario.jpg"
+                    alt="sorriso antes e depois de um clareamento">
+
+                <h3>Clareamento</h3>
+
+                <p>Oferecemos serviços de clareamento dental com especialistas qualificados</p>
+
+                <button>Saiba Mais</button>
+                <img class="imgServicos" src="..\interatividade\assets\img\protese-dentaria-protocolo-1.webp"
+                    alt="sorriso com aparelho ortodôntico">
+
+                <h3>Próteses</h3>
+
+                <p>Prestamos serviços de próteses para resturar seu sorriso</p>
+
+                <button>Saiba Mais</button>
             </div>
 
         </section>
@@ -56,26 +78,47 @@
 
             <div>
                 <div class="cards">
-                    <!-- se não tiver os dois pontinhos antes da barra do caminho ele não funcionará -->
-                    <img src="" alt="sorriso nº1">
 
-                    <p class="textoCards">Fulano de Tal</p>
+                    <img class="imgSorriso" src="..\interatividade\assets\img\sorriso_metalico.png" alt="sorriso nº1">
+
+                    <p class="textoCards">Alice Pereira</p>
+
+                    <h3>Depoimento:</h3>
+
+                    <p>Quando eu era menor eu sofria bullying por causa do meu sorriso, as pessoas ficavam me apelidando de tubarão e de outras coisas desagradáveis. Mas hoje estou com um sorriso bem mais bonito e longe desses desconfortos. Obrigado equipe da Sorriso Perfeito.</p>
+
+                    <!-- ==================================================================== -->
+                    <img style="@media(max-width: 600px){margin-top: 25px; width: 250px;}" class="imgSorriso" src="..\interatividade\assets\img\sorriso2.webp" alt="sorriso nº1">
+
+                    <p class="textoCards">Tamara Silva Ribeiro</p>
+
+                    <h3>Depoimento:</h3>
+
+                    <p>Eu sempre tive uma vergonha enorme de sorrir perto dos meus amigos quando os meus dentes eram amarelados, sempre tinha a sensação se que seria considerada desleixada, mas hoje estou livre desse peso, obrigado equipe da Sorriso Perfeito</p>
+
+                    <!-- ==================================================================== -->
+                    <img style="@media(max-width: 600px){margin-top: 25px; width: 300px}" class="imgSorriso" src="..\interatividade\assets\img\sorrisos3.jpg" alt="sorriso nº1">
+
+                    <p class="textoCards">José Maria e Maria José</p>
+
+                    <h3>Depoimento:</h3>
+
+                    <p>Nossos filhos nos recomendaram que procurassemos uma clínica ortodôntica que nos permitisse voltar a ter um sorriso completo. Foi assim que conhecemos o trabalho íncrivel da Sorriso Perfeito com proteses. Obrigado!</p>
+
+                    <!-- ==================================================================== -->
+                    <img style="@media(max-width: 600px){margin-top: 25px; width: 300px;}" class="imgSorriso" src="..\interatividade\assets\img\sorrisos4.avif" alt="sorriso nº1">
+
+                    <p class="textoCards">Pedro Alves e Jurema Silveira</p>
+
+                    <h3>Depoimento:</h3>
+
+                    <p>Minha esposa e eu somos ex-fumantes, por isso, quando paramos completamente de fumar, decidimos que queríamos um sorriso branquinho como aquele dos comerciais de creme dental. Obrigado Sorriso Perfeito, graças a Deus por vocês existirem.</p>
 
                 </div>
             </div>
 
         </section>
         <!-- Fim da galeria de sorrisos -->
-
-        <!-- Seção de depoimentos de clientes -->
-        <section id="depoimentos">
-
-            <h2>Veja o depoimento de alguns de nossos clientes</h2>
-
-            <p>(👉ﾟヮﾟ)👉 - Serviço brabo demais, recomendo...</p>
-
-        </section>
-        <!-- Fim dos depoimentos -->
 
         <!-- Seção do form -->
         <section>

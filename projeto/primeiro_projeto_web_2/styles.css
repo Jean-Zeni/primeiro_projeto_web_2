@@ -44,7 +44,7 @@ body {
         border-radius: 20px;
         background-color: #F3F4F6;
 
-        h2{
+        h2 {
             color: #A9D6E5;
             font-style: italic;
             font-size: 50px;
@@ -53,7 +53,7 @@ body {
             margin-top: 5px;
         }
 
-        p{
+        p {
             margin: 7px;
             font-size: 25px;
             font-weight: 300;
@@ -63,10 +63,9 @@ body {
 
     /* ====================================================================== */
 
-    #servicos{
+    #servicos {
         display: flex;
         flex-direction: column;
-        align-items: center;
         margin: 7px;
         margin-top: 40px;
         padding: 10px;
@@ -81,13 +80,185 @@ body {
             text-align: center;
         }
 
-        .imgServicos{
-            width: 300px;
-            border-style: solid;
-            border-width: 5px;
-            border-color: #A9D6E5;
-            border-top-left-radius: 20px;
-            border-bottom-right-radius: 20px;
+        #card_services {
+            text-align: center;
+
+            .imgServicos {
+                width: 300px;
+                border-style: solid;
+                border-width: 5px;
+                border-color: #A9D6E5;
+                border-top-left-radius: 40px;
+                border-bottom-right-radius: 40px;
+            }
+
+            button {
+                background-color: #90BE6D;
+                border-radius: 15px;
+                color: white;
+                width: 120px;
+                font-size: 20px;
+                margin-bottom: 20px;
+                border: 0;
+            }
+        }
+    }
+
+    /* ======================================================== */
+
+    #sorriso {
+        background-color: #F3F4F6;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 7px;
+        margin-top: 40px;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #F3F4F6;
+
+        .cards {
+
+            .imgSorriso {
+                width: 200px;
+                border-style: solid;
+                border-width: 5px;
+                border-color: #A9D6E5;
+                border-top-left-radius: 40px;
+                border-bottom-right-radius: 40px;
+            }
+
+            .textoCards {
+                margin-top: 5px;
+                font-size: 25px;
+                font-style: italic;
+                text-decoration: underline;
+            }
+
+        }
+    }
+
+}
+
+@media (min-width: 601px) {
+
+    main{
+        padding-top: 100px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+    }
+
+    header {
+        background-color: #90BE6D;
+        color: white;
+        position: fixed;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 100%;
+        top: 0;
+        margin: 0;
+
+        #title {
+            text-align: center;
+            font-size: 40px;
+        }
+
+    }
+
+    #home {
+        margin: 7px;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 30px;
+        font-weight: 400;
+        background-color: #A9D6E5;
+        color: white;
+
+        h2{
+            text-align: center;
+            font-size: 50px;
+            color: white;
+        }
+
+    }
+
+    #servicos {
+        display: flex;
+        flex-direction: column;
+        margin: 7px;
+        margin-top: 40px;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #F3F4F6;
+
+        h2 {
+            color: #90BE6D;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        #card_services {
+            text-align: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+
+            .imgServicos {
+                width: 400px;
+                border-style: solid;
+                border-width: 5px;
+                border-color: #A9D6E5;
+                border-top-left-radius: 40px;
+                border-bottom-right-radius: 40px;
+            }
+
+            button {
+                background-color: #90BE6D;
+                border-radius: 15px;
+                color: white;
+                width: 320px;
+                font-size: 40px;
+                margin-bottom: 20px;
+                border: 0;
+            }
+        }
+    }
+
+    #sorriso {
+        background-color: #F3F4F6;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 7px;
+        margin-top: 40px;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #F3F4F6;
+
+        .cards {
+
+            .imgSorriso {
+                width: 500px;
+                border-style: solid;
+                border-width: 5px;
+                border-color: #A9D6E5;
+                border-top-left-radius: 40px;
+                border-bottom-right-radius: 40px;
+            }
+
+            .textoCards {
+                margin-top: 5px;
+                font-size: 25px;
+                font-style: italic;
+                text-decoration: underline;
+            }
+
         }
     }
 
